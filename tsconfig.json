@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2015",
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "./lib",
+    "rootDir": "src",
+    "removeComments": false,
+    "esModuleInterop": true,
+    "moduleResolution": "Node"
+  },
+  "exclude": [
+    "node_modules",
+    "test"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "fivemtools",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "fivemtools": "./bin/cli.js",
+    "fivemtools-cli": "./bin/cli.js"
+  },
+  "main": "./lib/main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "author": "SlayerMonkey",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "@types/yargs": "^17.0.7",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "yargs": "^17.3.0"
+  }
+}
