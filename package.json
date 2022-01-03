@@ -9,14 +9,24 @@
   "main": "./lib/main.js",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slayerMonkeys/fivemtools.git"
   },
   "author": "SlayerMonkey",
-  "license": "MIT",
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/slayerMonkeys/fivemtools/issues"
+  },
   "devDependencies": {
     "@types/node": "^16.11.11",
     "@types/yargs": "^17.0.7",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.2",
+    "vuepress": "^2.0.0-beta.30"
   },
   "dependencies": {
     "yargs": "^17.3.0"
